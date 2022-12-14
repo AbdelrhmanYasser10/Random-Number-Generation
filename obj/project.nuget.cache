@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fu6RCpTbm5nvAKQfR90NlCENIJZA0bKfTmELIhodzXHIuxum8cPcTSyDnSv5P53hBEfSnOdb3kKtIH2ENcLQ3Q==",
+  "success": true,
+  "projectFilePath": "D:\\Computer Science ASU\\Forth- Year\\Simulation & Modeling\\Task4\\Task4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abdelrhman Yasser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Abdelrhman Yasser\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
