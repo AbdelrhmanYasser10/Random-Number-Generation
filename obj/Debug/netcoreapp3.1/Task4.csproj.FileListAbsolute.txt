@@ -1,0 +1,15 @@
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.exe
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.deps.json
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.runtimeconfig.json
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.runtimeconfig.dev.json
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.dll
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\bin\Debug\netcoreapp3.1\Task4.pdb
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.csprojAssemblyReference.cache
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.LCG_Form.resources
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.csproj.GenerateResource.cache
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.AssemblyInfoInputs.cache
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.AssemblyInfo.cs
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.csproj.CoreCompileInputs.cache
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.dll
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.pdb
+D:\Computer Science ASU\Forth- Year\Simulation & Modeling\Task4\obj\Debug\netcoreapp3.1\Task4.genruntimeconfig.cache
