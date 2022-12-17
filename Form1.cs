@@ -30,10 +30,11 @@ namespace Task4
                 double a = double.Parse(multiplierField.Text.ToString());
                 double seed = double.Parse(seedField.Text.ToString());
                 double increment = double.Parse(incrementField.Text.ToString());
-                double modulus = double.Parse(modulusField.Text.ToString());
+                int modulus = int.Parse(modulusField.Text.ToString());
                 int numberOfIterations = int.Parse(numberIterationField.Text.ToString());
                 LCG lcgGenerator = new LCG(seed, a, increment, modulus, numberOfIterations);
                 generatedNumbers = lcgGenerator.generateRandomeNumbers();
+                cycleLengthField.Text = lcgGenerator.cycleLengthAlgo().ToString();
             }
             catch (Exception error) {
                 MessageBox.Show(error.ToString());
