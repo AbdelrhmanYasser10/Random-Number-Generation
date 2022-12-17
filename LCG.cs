@@ -56,7 +56,7 @@ namespace Task4
                 }
             }
 
-            if (isPowerOfTwo((int)modulus) && increment != 0 && isRelativelyPrime(increment, modulus) && (multiplier-1) % 4 ==0)
+            if (isPowerOfTwo(modulus) && increment != 0 && isRelativelyPrime(increment, modulus) && (multiplier-1) % 4 ==0)
             {
                 cycleLength = modulus;
             }
