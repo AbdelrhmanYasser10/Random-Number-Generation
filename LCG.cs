@@ -6,21 +6,25 @@ namespace Task4
 {
     class LCG
     {
-        private double seed { set;  get; }
+        private double seed { set; get; }
         private double multiplier { set; get; }
         private double increment { set; get; }
         private int modulus { set; get; }
         private int numberOfIterations { set; get; }
         private int cycleLength { set; get; }
 
-        public LCG() {
+        private static List<double> generatedNumbers;
+
+        public LCG()
+        {
             seed = 0;
             multiplier = 0;
             increment = 0;
             modulus = 0;
             numberOfIterations = 0;
         }
-        public LCG(double seed, double multiplier, double increment, int modulus, int numberOfIterations) {
+        public LCG(double seed, double multiplier, double increment, int modulus, int numberOfIterations)
+        {
             this.seed = seed;
             this.multiplier = multiplier;
             this.increment = increment;
@@ -28,11 +32,13 @@ namespace Task4
             this.numberOfIterations = numberOfIterations;
         }
 
-        public List<double> generateRandomeNumbers() {
+        public List<double> generateRandomeNumbers()
+        {
 
-            List<double> generatedNumbers = new List<double>();
+            generatedNumbers = new List<double>();
             double previousValue = seed;
-            for (int i = 0; i < numberOfIterations; i++) {
+            for (int i = 0; i < numberOfIterations; i++)
+            {
                 double x = (multiplier * previousValue + increment) % modulus;
                 previousValue = x;
                 generatedNumbers.Add(x);
@@ -56,7 +62,7 @@ namespace Task4
                 }
             }
 
-            if (isPowerOfTwo(modulus) && increment != 0 && isRelativelyPrime(increment, modulus) && (multiplier-1) % 4 ==0)
+            if (isPowerOfTwo(modulus) && increment != 0 && isRelativelyPrime(increment, modulus) && ((multiplier - 1) % 4 == 0 && modulus % 4 == 0)) //Need To be handeled. [if increment != 0]
             {
                 cycleLength = modulus;
             }
@@ -67,6 +73,21 @@ namespace Task4
             else if (isPrime(modulus) && increment == 0 && isDivisableBy_m(Math.Pow(multiplier, k) - 1))
             {
                 cycleLength = modulus - 1;
+            }
+            else
+            {
+                double first_number = generatedNumbers[0];
+                int cnt = 1;
+                for (int i = 1; i < generatedNumbers.Count; i++)
+                {
+                    if (generatedNumbers[i] == first_number)
+                    {
+                        cnt++;
+                    }
+                    
+                }
+
+                cycleLength = cnt;
             }
 
             return cycleLength;
